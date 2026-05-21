@@ -4,11 +4,12 @@
     "carrot",
     "tomato",
     "conflict?",
+    "kukacos töpörtyű",
     "salad",
-    "eggplant",
+    "eggplant"
     ];
 
-string name = "Norbi";
+string name = "Peter";
 
 Console.WriteLine($"Hello {name}, my favofir veggie is {vegetables[Random.Shared.Next(vegetables.Length)]}");
 
