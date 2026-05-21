@@ -2,6 +2,8 @@
     "potato",
     "paprika",
     "carrot",
+    "tomato",
+    "conflict?",
     "kukacos töpörtyű"
     ];
 
