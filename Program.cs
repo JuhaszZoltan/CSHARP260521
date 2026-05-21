@@ -2,6 +2,7 @@
     "potato",
     "paprika",
     "carrot",
+    "kukacos töpörtyű"
     ];
 
 string name = "Zoltan";
