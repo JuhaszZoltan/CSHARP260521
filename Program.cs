@@ -20,3 +20,7 @@ for (int i = 0; i < vegetables.Count(); i++)
     Console.WriteLine($"Vedzsi {Math.Floor(Convert.ToDouble(i/10))}{i%10}.: {vegetables[i]}");
 }
 
+string newName = "Norbert";
+Console.WriteLine(newName);
+Console.WriteLine($"Hello {name}, my favofir veggie is {vegetables[Random.Shared.Next(vegetables.Length)]}");
+
