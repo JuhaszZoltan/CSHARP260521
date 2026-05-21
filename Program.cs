@@ -36,9 +36,11 @@ for (int i = 0; i < 100; i++)
 }
 Console.SetCursorPosition(0, Console.WindowHeight - 1);
 Console.ResetColor();
-Console.WriteLine("PRESS ESC TO EXIT!");
-while (Console.ReadKey(true).Key != ConsoleKey.Escape) ;
 
 BitMillerClass bmc = new("rly nothing important");
 Console.WriteLine(bmc);
+
+Console.WriteLine("PRESS ESC TO EXIT!");
+while (Console.ReadKey(true).Key != ConsoleKey.Escape) ;
+
 
