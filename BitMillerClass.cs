@@ -14,5 +14,12 @@ namespace CSHARP260521
         }
         public int MyRlyFcknUniquePropertyName { get; set; }
         public string? ThisIsSoImportantForMe { get; set; }
+
+        public override string ToString() => $"I have {MyRlyFcknUniquePropertyName} {ThisIsSoImportantForMe}! :3";
+        public BitMillerClass(string nothing)
+        {
+            MyRlyFcknUniquePropertyName = 42;
+            ThisIsSoImportantForMe = "cat";
+        }
     }
 }
