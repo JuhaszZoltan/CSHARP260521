@@ -8,5 +8,11 @@ namespace CSHARP260521
     {
         public int MyRlyFcknUniquePropertyName { get; set; }
         public string? ThisIsSoImportantForMe { get; set; }
+
+        public BitMillerClass(string nothing)
+        {
+            MyRlyFcknUniquePropertyName = 42;
+            ThisIsSoImportantForMe = "cat";
+        }
     }
 }
