@@ -8,6 +8,6 @@
     "eggplant",
     ];
 
-string name = "Zoltan";
+string name = "Jolán";
 
 Console.WriteLine($"Hello {name}, my favofir veggie is {vegetables[Random.Shared.Next(vegetables.Length)]}");
