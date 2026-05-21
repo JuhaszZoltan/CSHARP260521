@@ -5,6 +5,8 @@
     "tomato",
     "conflict?",
     "kukacos töpörtyű"
+    "salad",
+    "eggplant",
     ];
 
 string name = "Zoltan";
