@@ -32,5 +32,7 @@ for (int i = 0; i < 100; i++)
     Console.ForegroundColor = (ConsoleColor)Random.Shared.Next(1, 16);
     Console.WriteLine("._@/\"");
 }
-
+Console.SetCursorPosition(0, Console.WindowHeight - 1);
+Console.ResetColor();
+Console.WriteLine("PRESS ESC TO EXIT!");
 while (Console.ReadKey(true).Key != ConsoleKey.Escape) ;
