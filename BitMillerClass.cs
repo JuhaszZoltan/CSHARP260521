@@ -7,5 +7,10 @@ namespace CSHARP260521
     internal class BitMillerClass
     {
         // Here would be a constructor.
+
+        class Csigusz
+        {
+            const string CSIGUSZ = "._@/\"";
+        }
     }
 }
